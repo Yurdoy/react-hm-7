@@ -1,0 +1,22 @@
+.switch_language {
+  margin: 0 auto;
+  width: 40%;
+  height: auto;
+  text-align: center;
+  padding: 100px 0 0 0;
+}
+
+h2 {
+  color: #cba1f2;
+  padding: 20px;
+}
+
+button {
+  background-color: #cba1f2;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 20px;
+  word-wrap: break-word;
+  white-space: normal;
+  padding: 20px 30px;
+}

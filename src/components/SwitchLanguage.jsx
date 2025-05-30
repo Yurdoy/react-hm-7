@@ -1,12 +1,13 @@
 import React from "react";
 import { CurrentLanguageContext } from "../context/CurrentLanguage";
 import { useContext } from "react";
+import cls from "../components/SwitchLanguage.module.css";
 
 const SwitchLanguage = () => {
   const { language, toggleLanguage } = useContext(CurrentLanguageContext);
 
   return (
-    <div>
+    <div className={cls.switch_language}>
       <h2>
         {language === "en"
           ? "English language was chosen"

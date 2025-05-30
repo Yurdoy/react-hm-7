@@ -1,6 +1,7 @@
 import React from "react";
 import { useContext } from "react";
 import { CurrentLanguageContext } from "../context/CurrentLanguage";
+import cls from "../components/SomeText.module.css";
 
 const SomeText = () => {
   const { language } = useContext(CurrentLanguageContext);
